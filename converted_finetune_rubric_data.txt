@@ -1,0 +1,290 @@
+<s>[INST] <<SYS>>
+You are given a question, a sample answer, and the maximum marks for the question.
+Identify the important points in the answer and generate a scoring rubric.
+The scoring rubric is a JSON object containing the criteria and maximum marks for having that point in the answer.
+You can have as many criteria as you want.
+The sum of max_marks should be equal to the total marks for the question.
+
+Your response should be in this JSON format:
+{ "rubric": [ { "criteria": "<criteria description>", "max_marks": <marks> }, { "criteria": "<criteria description>", "max_marks": <marks> } ] }
+<</SYS>>
+
+-Question: Define the term power of accommodation. Write the modification in the curvature of the eye lens which enables us to see the nearby objects clearly?
+
+-Total Marks: 2
+
+-Answer: The ability of the eye lens to adjust its focal length is called the power of accommodation. There should be a contraction . of ciliary muscles, that will increase the curvature of the eye lens and becomes thicker, so the focal length of the eye lens will decrease. It will thus enable us to see the objects clearly. [/INST] {   "rubric": [     {       "criteria": "Defines the power of accommodation as the ability of the eye lens to adjust its focal length.",       "max_marks": 1     },     {       "criteria": "Explains the contraction of ciliary muscles and increased curvature of the eye lens for seeing nearby objects clearly.",       "max_marks": 1     }   ] }</s>
+<s>[INST] <<SYS>>
+You are given a question, a sample answer, and the maximum marks for the question.
+Identify the important points in the answer and generate a scoring rubric.
+The scoring rubric is a JSON object containing the criteria and maximum marks for having that point in the answer.
+You can have as many criteria as you want.
+The sum of max_marks should be equal to the total marks for the question.
+
+Your response should be in this JSON format:
+{ "rubric": [ { "criteria": "<criteria description>", "max_marks": <marks> }, { "criteria": "<criteria description>", "max_marks": <marks> } ] }
+<</SYS>>
+
+-Question: Identify the acid and the base from which sodium chloride is obtained. Which type of salt is it? When is it called rock salt? How is rock salt formed?
+
+-Total Marks: 3
+
+-Answer: NaCl is made by reacting an acid and a base. The base is NaOH (Sodium hydroxide). So,
+HCl + NaOH → NaCl + H2O
+It is a Neutralization Reaction.
+It is known as rock salt in crystalline form.
+It is the result of the evaporation of ancient oceans millions of years ago. Sometimes pressure from deep inside the Earth forces up large masses of rocks to form salt-like domes. [/INST] {   "rubric": [     {       "criteria": "Identifies HCl as the acid and NaOH as the base from which sodium chloride is obtained.",       "max_marks": 0.5     },     {       "criteria": "Mentions that NaCl is a result of a neutralization reaction.",       "max_marks": 0.5     },     {       "criteria": "Explains that sodium chloride is called rock salt in crystalline form.",       "max_marks": 0.5     },     {       "criteria": "Describes the formation of rock salt through the evaporation of ancient oceans.",       "max_marks": 0.75     },     {       "criteria": "Mentions that pressure from deep inside the Earth can form salt-like domes.",       "max_marks": 0.75     }   ] }</s>
+<s>[INST] <<SYS>>
+You are given a question, a sample answer, and the maximum marks for the question.
+Identify the important points in the answer and generate a scoring rubric.
+The scoring rubric is a JSON object containing the criteria and maximum marks for having that point in the answer.
+You can have as many criteria as you want.
+The sum of max_marks should be equal to the total marks for the question.
+
+Your response should be in this JSON format:
+{ "rubric": [ { "criteria": "<criteria description>", "max_marks": <marks> }, { "criteria": "<criteria description>", "max_marks": <marks> } ] }
+<</SYS>>
+
+-Question: What is carpel? Write the function of its various parts.
+
+-Total Marks: 3
+
+-Answer: The flask-shaped organ in the centre of a flower is called carpel. It is also called a female reproductive organ of the plant.
+It is made up of three parts:
+
+Stigma
+Style
+Ovary.
+1. Stigma is the top part of carpel and is sticky. So, it receives the pollen from the anther of stamen.
+2. Style connects stigma to ovary.
+3. Ovary contains female gametes of the plant and helps in reproduction. [/INST] {   "rubric": [     {       "criteria": "Defines carpel as the flask-shaped organ in the center of a flower and mentions it as the female reproductive organ of the plant.",       "max_marks": 0.5     },     {       "criteria": "Lists the three parts of the carpel: stigma, style, and ovary.",       "max_marks": 0.5     },     {       "criteria": "Describes the function of the stigma as the sticky top part that receives pollen from the anther.",       "max_marks": 0.5     },     {       "criteria": "Describes the function of the style as connecting the stigma to the ovary.",       "max_marks": 0.5     },     {       "criteria": "Describes the function of the ovary as containing female gametes and helping in reproduction.",       "max_marks": 1     }   ] }</s>
+<s>[INST] <<SYS>>
+You are given a question, a sample answer, and the maximum marks for the question.
+Identify the important points in the answer and generate a scoring rubric.
+The scoring rubric is a JSON object containing the criteria and maximum marks for having that point in the answer.
+You can have as many criteria as you want.
+The sum of max_marks should be equal to the total marks for the question.
+
+Your response should be in this JSON format:
+{ "rubric": [ { "criteria": "<criteria description>", "max_marks": <marks> }, { "criteria": "<criteria description>", "max_marks": <marks> } ] }
+<</SYS>>
+
+-Question: Define the term ‘Civil Disobedience Movement.’ Describe the participation of rich and poor peasant communities in the ‘Civil Disobedience Movement.’
+
+-Total Marks: 5
+
+-Answer: The Civil Disobedience Movement was a movement to disobey the rules of the British Government.
+(i) Rich peasant communities, like the Patidars of Gujarat and the Jats of Uttar Pradesh, became active in the Civil Disobedience Movement. Being producers of commercial crops, they were hard hit by trade-depression and falling prices.
+
+(ii) As their cash income reduced, they found it impossible to pay the government’s revenue demand. These rich peasants became ardent supporters of the Civil Dis-obedience Movement. For them fight for Swaraj was a struggle against high revenues.
+
+(iii) Small tenants had been cultivating rented land of landlords. They were not interested in the lowering of the revenue demand. As the economic depression continued, small farmers found it difficult to pay their rent. The poor peasants participated as they wanted their unpaid rent to be remitted.
+
+(iv) Congress was unwilling to support ‘No rent campaign’, as they did not want to upset the rich peasants and landlords. They often joined the radical movements led by the socialists and communists. [/INST] {   "rubric": [     {       "criteria": "Defines the Civil Disobedience Movement as a movement to disobey the rules of the British Government.",       "max_marks": 1     },     {       "criteria": "Mentions the participation of rich peasant communities like the Patidars of Gujarat and Jats of Uttar Pradesh in the movement.",       "max_marks": 1     },     {       "criteria": "Explains that rich peasants were affected by trade depression, falling prices, and high revenue demands, which motivated their participation.",       "max_marks": 1     },     {       "criteria": "Describes the participation of poor peasants, highlighting their struggle to pay rent and their demand for rent remission.",       "max_marks": 1     },     {       "criteria": "Mentions Congress's reluctance to support the 'No rent campaign' and the alignment of poor peasants with radical movements led by socialists and communists.",       "max_marks": 1     }   ] }</s>
+<s>[INST] <<SYS>>
+You are given a question, a sample answer, and the maximum marks for the question.
+Identify the important points in the answer and generate a scoring rubric.
+The scoring rubric is a JSON object containing the criteria and maximum marks for having that point in the answer.
+You can have as many criteria as you want.
+The sum of max_marks should be equal to the total marks for the question.
+
+Your response should be in this JSON format:
+{ "rubric": [ { "criteria": "<criteria description>", "max_marks": <marks> }, { "criteria": "<criteria description>", "max_marks": <marks> } ] }
+<</SYS>>
+
+-Question: Why do multinational corporations (MNCs) set up their offices and factories in certain areas only? Explain any five reasons.
+
+-Total Marks: 5
+
+-Answer: (i) MNCs set up offices and factories for production in regions where they can get cheap labour and other resources. Example, Countries like China, Bangladesh and India. They also provide with the advantage of cheap manufacturing locations.
+
+(ii) MNCs also need close-by markets for the goods that they manufacture. Mexico and Eastern Europe are useful for their closeness to the markets in the US and Europe.
+
+(iii) Besides these, MNCs also require skilled engineers and IT personnel and a large number of English speaking people who are able to provide customer care services (India possibly tops in this area).
+
+(iv) MNCs also set up factories in areas where raw material is easily available and other factors of production like electricity, etc. is assured.
+
+(v) MNCs set up their offices in places where government policies are favourable to the investors. [/INST] {   "rubric": [     {       "criteria": "Explains that MNCs set up offices and factories in regions with cheap labor and other resources, citing examples like China, Bangladesh, and India.",       "max_marks": 1     },     {       "criteria": "Mentions the importance of proximity to markets for manufactured goods, with examples like Mexico and Eastern Europe being close to US and European markets.",       "max_marks": 1     },     {       "criteria": "Highlights the requirement for skilled engineers, IT personnel, and English-speaking customer care workers, with India as an example.",       "max_marks": 1     },     {       "criteria": "States the preference for areas with easy availability of raw materials and assured factors of production like electricity.",       "max_marks": 1     },     {       "criteria": "Describes the importance of favorable government policies for MNCs in choosing office locations.",       "max_marks": 1     }   ] }</s>
+<s>[INST] <<SYS>>
+You are given a question, a sample answer, and the maximum marks for the question.
+Identify the important points in the answer and generate a scoring rubric.
+The scoring rubric is a JSON object containing the criteria and maximum marks for having that point in the answer.
+You can have as many criteria as you want.
+The sum of max_marks should be equal to the total marks for the question.
+
+Your response should be in this JSON format:
+{ "rubric": [ { "criteria": "<criteria description>", "max_marks": <marks> }, { "criteria": "<criteria description>", "max_marks": <marks> } ] }
+<</SYS>>
+
+-Question: Define the term ‘density of population’. Elaborate any four geographical factors the influence that distribution of population in the world.
+
+-Total Marks: 5
+
+-Answer: Density of population is expressed as number of persons per unit area.
+
+Formula = Density of Population = Population/Area. Four geographical factors that influence the distribution of papulation in the world :
+
+Available of water : It is the most important factor for life. So, people prefer to live in areas where fresh water is easily available.
+Landforms : People prefer living on flat plains and gentle slopes. This is because such areas are favourable for the production of crops and to build roads and industries.
+Climate : An extreme climate such as very hot or cold deserts are uncomfortable climate, but where there is not much seasonal variation, attracts more people.
+Soil: Fertile soils are important for agricultural and allied activities. Therefore, areas which have fertile loamy soils have more people living on them as these can support intensive agriculture. [/INST] {   "rubric": [     {       "criteria": "Defines density of population as the number of persons per unit area and includes the formula (Density = Population/Area).",       "max_marks": 1     },     {       "criteria": "Explains the importance of water availability, stating that people prefer areas where fresh water is easily accessible.",       "max_marks": 1     },     {       "criteria": "Mentions landforms, highlighting preference for flat plains and gentle slopes for agriculture, roads, and industries.",       "max_marks": 1     },     {       "criteria": "Describes the influence of climate, noting that moderate climates attract more people while extreme climates discourage settlement.",       "max_marks": 1     },     {       "criteria": "Explains the role of fertile soils in supporting agricultural activities, leading to higher population densities in such areas.",       "max_marks": 1     }   ] }</s>
+<s>[INST] <<SYS>>
+You are given a question, a sample answer, and the maximum marks for the question.
+Identify the important points in the answer and generate a scoring rubric.
+The scoring rubric is a JSON object containing the criteria and maximum marks for having that point in the answer.
+You can have as many criteria as you want.
+The sum of max_marks should be equal to the total marks for the question.
+
+Your response should be in this JSON format:
+{ "rubric": [ { "criteria": "<criteria description>", "max_marks": <marks> }, { "criteria": "<criteria description>", "max_marks": <marks> } ] }
+<</SYS>>
+
+-Question: Describe the ‘Ideal of Patriliny’ and ‘Gendered access to Property prevailing during sixth century B.C.E. to sixth century C.E.
+
+-Total Marks: 8
+
+-Answer: (i) The Ideal of Patriliny : The Mahabharata stands exemplary when it comes to the idea of Patriliny. The feud between the Kauravas and the Pandavas, ultimately ended in a battle, in which the Pandavas emerged victorious. After that, patrilineal succession was proclaimed. While patriliny had existed prior to the composition of the epic, the central story of the Mahabharata reinforced the idea that it was valuable. Under patriliny, son could claim the resources (including the throne in the case of kings) of their father’s when the latter died.
+
+Most ruling dynasties (c. sixth century BCE onwards) claimed to follow this system, although there were variations in practice: Sometimes there were no sons in some situations and brothers succeeded one another, sometimes other kinsmen claimed the throne, and, in very exceptional circumstances, women such as Prabhavati Gupta exercised power. It is evident in ritual texts such as the Rigveda.
+
+(ii) Gendered access to Property : The paternal estate was to be divided equally amongst sons after the death of the parents, with a special share for the eldest. Women could not claim a share of these resources. However, women were allowed to retain the gifts they received on the occasion of their marriage as ‘stridhana’ (literally, a woman’s wealth). This could be inherited by their children, without the husband having any claim on it. Prabhavati Gupta was an exception when a woman claimed the resources of her father.
+
+At the same time, the Manusmriti warned women against hoarding family property, or even their own valuables, without the husband’s permission. However, cumulative evidence — both epigraphic and textual – suggests tbit while upper- class women may have had access to resources; the land, cattle and money were generally controlled by men. Women acquired wealth during the ritual of marriage, bridal processions as a token of affection from her brother, mother or father or as a gift from her husband. In other words, social differences between men and women were sharpened because of the differences in access to resources. [/INST] {   "rubric": [     {       "criteria": "Explains the ideal of patriliny with reference to the Mahabharata, including the central story of the feud between Kauravas and Pandavas reinforcing patrilineal succession.",       "max_marks": 1.5     },     {       "criteria": "Describes patriliny as a system where sons claimed resources from their fathers and mentions its practice by ruling dynasties from the sixth century BCE onwards.",       "max_marks": 1.5     },     {       "criteria": "Acknowledges exceptions to patriliny, such as brothers or other kinsmen succeeding in the absence of sons, and rare cases like Prabhavati Gupta where women exercised power.",       "max_marks": 1     },     {       "criteria": "Explains gendered access to property, including the division of paternal estate among sons and the exclusion of women from claiming a share.",       "max_marks": 1.5     },     {       "criteria": "Mentions the concept of ‘stridhana,’ allowing women to retain gifts received at marriage and pass them to their children, without claims from their husbands.",       "max_marks": 1     },     {       "criteria": "Cites the Manusmriti warning women against hoarding family property or their own valuables without their husband’s permission.",       "max_marks": 0.5     },     {       "criteria": "Discusses the broader evidence suggesting that men controlled land, cattle, and money, while women’s access to resources was limited to marriage-related gifts.",       "max_marks": 1     }   ] }</s>
+<s>[INST] <<SYS>>
+You are given a question, a sample answer, and the maximum marks for the question.
+Identify the important points in the answer and generate a scoring rubric.
+The scoring rubric is a JSON object containing the criteria and maximum marks for having that point in the answer.
+You can have as many criteria as you want.
+The sum of max_marks should be equal to the total marks for the question.
+
+Your response should be in this JSON format:
+{ "rubric": [ { "criteria": "<criteria description>", "max_marks": <marks> }, { "criteria": "<criteria description>", "max_marks": <marks> } ] }
+<</SYS>>
+
+-Question: “A chain of grievances in Awadh linked the prince, taluqdars, peasants and sepoys to join ‘ hands in the revolt of 1857 against the British.” Examine the statement.
+
+-Total Marks: 8
+
+-Answer: A chain of grievances in Awadh linked the prince, taluqdars, peasants and sepoys to join hands in the revolt of 1857 against the British.
+
+(i) The Nawab of Awadh, Wajid Ali Shah was removed by Dalhousie on the pretext of poor governance. It was looked down upon by the people as high insult to them. The local people sympathised with the Nawab. Thus, the public sentiment was gainst the British government that got a vent during the revolt.
+
+(ii) The British land revenue policy further undermined the position and authority of the taluqdars. After annexation, the first British revenue settlement, known as the Summary Settlement of 1856, was based on the assumption that the taluqdars were interlopers with no permanent stakes in land. The Summary Settlement proceeded to remove the taluqdars wherever possible. The increase of revenue demand in some place was 30 to 70%. Thus taluqdars were not happy with the annexation.
+
+(iii)
+
+British land revenue officers believed that by removing taluqdars they would be able to settle the land with the actual owners of the soil.
+They thought they will be able to reduce the level of exploitation of peasants while increasing revenue returns for the state. But this did not happen in practice.
+The revenue flows for the state increased but the burden of demand on the peasants did not decline. Thus neither taluqdars nor peasants had any reasons to be happy with the annexation.
+(iv) The grievances of the peasants were carried over into the sepoy lines since a vast majority of the sepoys were recruited from the villages of Awadh. For decades the sepoys had complained of low levels of pay and the difficulty of getting leave. The relationship of the spoys with their superior white officers underwent a significant change in the years preceding the uprising of 1857.
+
+(v) In the 1840s, the officers developed a sense of superiority and started treating the sepoys as their racial inferiors, riding roughshod over their sensibilities. Abuse and physical violence became common and thus, the distance between sepoys and officers grew. .
+
+(vi) The company introduced a new catridge for its soldiers. It was to be bitten before use by soldiers. It was reported that it was made of the fat of cow and pig. Hence, soldiers of both Hindu and Muslim thought that it was a conspirary of the Company to destroy their religion.
+
+(vii) During the early phase of the company rule, British soliders and officers had friendly relation with the Indian soldiers. Things changed after 1835 and British began to consider themselves as superior. All senior positions in the army were given to them and even at the same ranks Britishers were paid more. The native soliders were treated with disrespect. [/INST] {   "rubric": [     {       "criteria": "Mentions the removal of Nawab Wajid Ali Shah by Dalhousie and its impact on public sentiment against the British.",       "max_marks": 1     },     {       "criteria": "Explains how the British land revenue policy undermined the authority of the taluqdars, particularly through the Summary Settlement of 1856.",       "max_marks": 1     },     {       "criteria": "Describes the removal of taluqdars and its failure to reduce exploitation of peasants, leading to dissatisfaction among both taluqdars and peasants.",       "max_marks": 1.5     },     {       "criteria": "Highlights the grievances of peasants, noting that increased revenue demands and lack of relief led to discontent among them.",       "max_marks": 1     },     {       "criteria": "Discusses the connection between peasant grievances and the sepoy lines, as many sepoys were recruited from Awadh villages.",       "max_marks": 1     },     {       "criteria": "Mentions the low pay, lack of leave, and deteriorating relationship between sepoys and white officers, leading to resentment among sepoys.",       "max_marks": 1     },     {       "criteria": "Describes the introduction of the new cartridge and its association with cow and pig fat, offending both Hindu and Muslim soldiers.",       "max_marks": 1     },     {       "criteria": "Highlights the racial discrimination and disparity in treatment and pay between British and Indian soldiers after 1835, increasing sepoy discontent.",       "max_marks": 0.5     }   ] }</s>
+<s>[INST] <<SYS>>
+You are given a question, a sample answer, and the maximum marks for the question.
+Identify the important points in the answer and generate a scoring rubric.
+The scoring rubric is a JSON object containing the criteria and maximum marks for having that point in the answer.
+You can have as many criteria as you want.
+The sum of max_marks should be equal to the total marks for the question.
+
+Your response should be in this JSON format:
+{ "rubric": [ { "criteria": "<criteria description>", "max_marks": <marks> }, { "criteria": "<criteria description>", "max_marks": <marks> } ] }
+<</SYS>>
+
+-Question: With close reference to the short story The Singing Lesson, describe how the lesson as it progresses, becomes an echo of Miss Meadows’ feelings.
+
+-Total Marks: 20
+
+-Answer: “The Singing Lesson” reveals how the lesson as it progresses becomes an echo of Miss Meadows’ feelings. The story explains how the change in our moods affects our work. Miss Meadows is a music teacher in a school. She is in love with Basil. As she is past normal marriage age she is satisfied that now she will be able to lead a normal happy life like others of her colleagues. But she is rudely shaken by a letter from her lover expressing his inability to marry her. She is in despair and anguish, mixed with anger. She is naturally agitated.
+
+Clad in her usual academic attire, Miss Meadows is going to teach her first singing lesson of the day. She is carrying the burden of the contents of the letter recently received from her fiance Basil, calling off the wedding. So she moves to the class “with despair – cold, sharp despaif” through the cold corridors leading to the music hall. She feels confused, bitterly lonely and unloved.
+
+The students are making a noise. They are lively, full of fun and excitement when Miss Meadows arrives. She brings apprehension with her. Mary Beazley, her favorite student, “was turning the music stool”. That turn symbolizes the turn of the world, which stops. It is as if Miss Meadows had power to rule nature and to change the course of things.
+
+She ignores the greetings, even the ritual by Mary Beazley of preserving the Chrysanthemum and asks the students to start singing ‘A Lament’ instead of the already chalked out lesson. The students are instructed to sing the song without expression. They sing with “mournful voices”. The lyric of the music is like that moment of life the character was passing :
+
+“Fast! Ah, too Fast Fade the Ro-o-ses of Pleasure;
+Soon Autumn yields unto Wi-i-nter Drear.
+Fleetly! Ah, Fleetly Mu-u-sic’s Gay Measure
+Passes away from the Listening Ear.”
+
+The students are asked to sing without expression and the result is indeed tragic. Tension is mounting. “Every note was a sob, a groan of awful mournfulness.” While she is creating such an external disorder, Miss Meadows, undergoing internal chaos, wonders what could have happened to Basil as he had that attitude. She muses that Basil’s last letter had made her feel happy. It means that Miss Meadows is dependent on external events and on her relationship with her fiance.
+
+As the girls sing the lament, the nature to Miss Meadows also seems to echo her sadness. “The willow trees, outside the high, narrow windows, waved in the wind.” The willow tree, as we know, is associated with the feelings of sadness and the idea of death. “They had lost half their lives. The tiny ones that clung wriggled like fishes caught on a line.” It looks as if all the leaves wanted to fall. The narrow windows, suffocating, cause anguish, as the singing lament.
+
+The ‘Lament’ is like a funeral march. Miss Meadows gets a dark aspect – of waning moon – darkening the environment as well. She asks the girls “Make that ‘Drear’ sound as if a cold wind were blowing through it.” She utters ‘Drear’ so awfully that Mary Beazley ‘wriggled her spine’. The atmosphere is already surcharged when Miss Meadows says, “You must begin to die… to fade … until the Listening Ear is nothing more than a faint whisper.” It appears as if Miss Meadows wanted to express all the misery she was feeling. Such is the effect of the tension so created that some of the girls are ‘crimson’. One of them starts to cry. “Big spots of rain blew against the windows, and one could hear the willows whispering.”
+
+But the situation is the opposite when Miss Meadows receives the happy telegram from Basil. She feels transformed, her mood is joyous. “On wings of hope, of love, of joy.” Miss Meadows goes back to the music hall, picks up the Chrysanthemum and raps with her baton. She turns to another page of the songbook :
+
+We come here To-day with Flowers overladen, ‘
+With Baskets of Fruit and Ribbons to boot,
+To-oo Congratulate ……………..
+
+It is spring now. Everything has to regain its agility, becoming eager. Beaming at the girls, she asks the girls to use their imaginations. Now the sun is shining inside her. The air, the voices, the sound and all the rest become light. The girls are manipulated, influenced by the teacher, who tries to touch them with joy. It is the end of the nightmare: “Don’t look so doleful. It ought to sound warm, joyful, eager.”
+
+Miss Meadows seems to be filled with instinctive, impulsive, spontaneous infatuation. She recovers motion, passion, fervour, moved by her satisfied desire. Now her voice sounds over all the other voices – full, deep, glowing with expression. She recovers her full aspect, her lost energy is restored. [/INST] {   "rubric": [     {       "criteria": "Introduces Miss Meadows as a music teacher affected by personal emotions and links the story's theme to the impact of mood on work.",       "max_marks": 2     },     {       "criteria": "Describes Miss Meadows' emotional turmoil caused by a letter from Basil calling off their wedding, and her feelings of despair, loneliness, and agitation.",       "max_marks": 2     },     {       "criteria": "Explains Miss Meadows’ reaction to her students' lively demeanor and her decision to change the lesson to a mournful song, reflecting her mood.",       "max_marks": 2     },     {       "criteria": "Connects the lyrics of 'A Lament' to Miss Meadows' emotional state, showing how the song echoes her feelings of despair and loss.",       "max_marks": 2     },     {       "criteria": "Highlights the use of nature imagery, such as willow trees and narrow windows, to mirror Miss Meadows' sadness and internal chaos.",       "max_marks": 2     },     {       "criteria": "Discusses the tension created in the classroom, including Miss Meadows’ instructions for singing with mournfulness and the students’ reactions.",       "max_marks": 2     },     {       "criteria": "Explains the transformation in Miss Meadows' mood after receiving the telegram from Basil and its immediate impact on the atmosphere of the lesson.",       "max_marks": 2     },     {       "criteria": "Describes how the lesson changes tone with the new song, reflecting Miss Meadows’ newfound joy and optimism.",       "max_marks": 2     },     {       "criteria": "Analyzes the role of Miss Meadows' mood in manipulating the students' emotions and creating contrasting atmospheres in the lesson.",       "max_marks": 2     },     {       "criteria": "Concludes with an evaluation of how Miss Meadows regains her energy and passion, reflecting her recovery from emotional turmoil.",       "max_marks": 2     }   ] }</s>
+<s>[INST] <<SYS>>
+You are given a question, a sample answer, and the maximum marks for the question.
+Identify the important points in the answer and generate a scoring rubric.
+The scoring rubric is a JSON object containing the criteria and maximum marks for having that point in the answer.
+You can have as many criteria as you want.
+The sum of max_marks should be equal to the total marks for the question.
+
+Your response should be in this JSON format:
+{ "rubric": [ { "criteria": "<criteria description>", "max_marks": <marks> }, { "criteria": "<criteria description>", "max_marks": <marks> } ] }
+<</SYS>>
+
+-Question: The poem Crossing the Bar is a poem of affirmation and faith. Give your views.
+
+-Total Marks: 20
+
+-Answer: In the Victorian Age, new scientific discoveries had shattered people’s faith in religion and God. Many people lost faith in life beyond death. They began to agree with those who believed that death is the end of life. Such thoughts were highly upsetting to men of faith like Tennyson. For some time Tennyson remained wavering. His faith was rudely shaken, but then he was finally able to overcome all his doubts. He was able to regain his faith in the immortality of the human soul and the existence of God.
+
+‘Crossing the Bar’ is one of Tennyson’s prominent poems. It was written when the poet was eighty-one years old after his serious illness. It may be considered his testament as well as his epitaph.
+
+‘Crossing the Bar’ imbibes his faith in life beyond death. He takes the traditional, religious image and symbol of the journey of the soul from, and to, its real home, that is, heaven, and makes it the central metaphor in this poem. He anticipates his death and believes that his passage from this life to the next will be smooth, like a ship which easily clears the sand-bar and comes into the open sea. He wants to be calm and quiet at the time of death, free from all cares and anxieties. This is what all religions teach. Death is inevitable and inescapable. It should be accepted in a calm and cheerful mood. We should not conceive it as something bad and cruel.
+
+The second stanza of the poem clearly visualizes the journey of the soul. It will be easy and smooth if the mind is at peace. The poet is ready for death. He wants to see no sad scenes of parting :
+
+And may there be no sadness of farewell,
+When I embark.
+
+The last stanza embodies a fundamental Biblical belief in the immortality of the soul and meeting God face to face:
+
+I hope to see my Pilot face to face
+When I have crost the bar.
+
+We should remember that Jesus is regarded as the Pilot of the Church and guides the Christian’s life. The image of ‘crossing’ has obvious Christian connotations. Crossing refers to ‘crossing over’ into the next world. It also refers to the act of “crossing” oneself as a gesture of religious faith and devotion. Thus, the poem built upon the image of ‘crossing’ is essentially a poem of faith.
+
+Though the philosophical or ethical ideas of the poem are edifying, yet what appeals to us about the poem is its metaphorical structure. The central metaphor is worked out quite effectively. The images are both relevant and effective. The images of the sunset, the evening star, the twilight, the evening bell are highly suggestive. They convey the idea of old age and the end of life effectively and help build the atmosphere and the mood in a proper way. The idea of God as Pilot is quite striking. The faithful among us accept it readily. [/INST] {   "rubric": [     {       "criteria": "Introduces the Victorian Age context and the loss of faith in religion and life beyond death, providing background to Tennyson's perspective.",       "max_marks": 2     },     {       "criteria": "Explains how Tennyson overcame his doubts and regained faith in the immortality of the soul and the existence of God.",       "max_marks": 2     },     {       "criteria": "Mentions 'Crossing the Bar' as Tennyson's testament and epitaph, written at the age of eighty-one after a serious illness.",       "max_marks": 2     },     {       "criteria": "Describes the central metaphor of the poem: the journey of the soul as a ship crossing the sand-bar into the open sea, symbolizing a smooth passage to the afterlife.",       "max_marks": 2     },     {       "criteria": "Highlights the poet's calm acceptance of death, free from cares and anxieties, as a reflection of religious teachings.",       "max_marks": 2     },     {       "criteria": "Analyzes the second stanza, emphasizing the poet's desire for a peaceful death and absence of sadness at parting.",       "max_marks": 2     },     {       "criteria": "Discusses the last stanza's Biblical allusions to the immortality of the soul and meeting God face to face.",       "max_marks": 2     },     {       "criteria": "Explains the Christian symbolism of the Pilot as God and the act of 'crossing' as a gesture of faith and transition to the afterlife.",       "max_marks": 2     },     {       "criteria": "Appraises the metaphorical structure of the poem, focusing on the effective use of images like sunset, evening star, twilight, and evening bell to convey old age and the end of life.",       "max_marks": 2     },     {       "criteria": "Highlights the central idea of faith and devotion, noting the relevance and appeal of the imagery and metaphor for believers.",       "max_marks": 2     }   ] }</s>
+<s>[INST] <<SYS>>
+You are given a question, a sample answer, and the maximum marks for the question.
+Identify the important points in the answer and generate a scoring rubric.
+The scoring rubric is a JSON object containing the criteria and maximum marks for having that point in the answer.
+You can have as many criteria as you want.
+The sum of max_marks should be equal to the total marks for the question.
+
+Your response should be in this JSON format:
+{ "rubric": [ { "criteria": "<criteria description>", "max_marks": <marks> }, { "criteria": "<criteria description>", "max_marks": <marks> } ] }
+<</SYS>>
+
+-Question: Referring closely to the poem The Darkling Thrush, answer the following:
+Describe the bleak picture of the day as described by the poet.
+
+-Total Marks: 8
+
+-Answer: Thomas Hardy beautifully describes the scene in nature in his poem ‘The Darkling Thrush’. In order to make it sensuous, he employs concrete imagery. The poet, in a sad mood, is leaning upon a wooden gate. He is all alone as there is no one else visible at this time of the hour on a very cold, wintry evening. It is evening time. The light of the sun is fading fast. The thick, tangled stems of the climbing plants that line the sky seem to the poet to be like broken, useless lyres. Frost and winter, it seems, have made everyone, except the poet, go inside to seek warmth and protection.
+
+It is important to note the use of the image of clouds hanging in the sky’ which seem to form a canopy. This dark canopy from above reminds the poet of the death of the century’ (19th century).
+
+The land’s sharp features seemed to be
+The Century’s corpse outleant,
+His crypt the cloudy canopy,
+The wind its death-lament.
+
+Seeing the clouds in the sky, the poet feels that the clouds would serve as a tomb for the dead body of the present century.
+
+The scene in nature, thus, is totally gloomy. The mood in nature corresponds to the poet’s mood. There is sadness and hopelessness within and without. Perhaps it is the poet who projects his feelings of sadness on to the scene. But the poet suddenly hears the shrill note of an aged thrush. The happy note of the thrush is surprising. It indicates that nature cannot be totally gloomy. The music of nature never dies. [/INST] {   "rubric": [     {       "criteria": "Mentions the poet’s description of the scene in nature as cold, wintry, and bleak, with the poet in a sad mood leaning upon a wooden gate.",       "max_marks": 1.5     },     {       "criteria": "Describes the evening setting, including the fading light of the sun and the thick, tangled stems of climbing plants resembling broken, useless lyres.",       "max_marks": 1.5     },     {       "criteria": "Highlights the impact of frost and winter, making everyone except the poet retreat indoors for warmth and protection.",       "max_marks": 1     },     {       "criteria": "Explains the imagery of the clouds forming a dark canopy and how it symbolizes the death of the 19th century.",       "max_marks": 1     },     {       "criteria": "Quotes and interprets the stanza describing the century’s corpse, its crypt as the cloudy canopy, and the wind as its death-lament.",       "max_marks": 1     },     {       "criteria": "Discusses the gloomy scene in nature and how it mirrors the poet’s feelings of sadness and hopelessness.",       "max_marks": 1     },     {       "criteria": "Notes the sudden appearance of the aged thrush and its happy note, contrasting with the bleakness of the scene.",       "max_marks": 0.5     },     {       "criteria": "Explains the symbolic meaning of the thrush’s song, indicating that nature cannot be entirely gloomy and the music of nature never dies.",       "max_marks": 0.5     }   ] }</s>
